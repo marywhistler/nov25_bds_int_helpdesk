@@ -163,4 +163,10 @@ cython_debug/
 .vscode/
 
 # Data folder
-data/
+# Data (downloaded files) - never commit
+data/**
+
+# Keep the folder + its README tracked
+!data/
+!data/README.md
+
